@@ -1,6 +1,7 @@
 # Doc Consolidator
 
 PDF documentation consolidation utilities for processing exported documentation files from platforms like Notion, Confluence, or other knowledge management systems.
+Useful if you want to upload content into AI tools such as Google's NotebookLM, that have limits on the number of files you can upload.
 
 ## Purpose
 
