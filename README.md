@@ -50,7 +50,7 @@ Consolidates PDF files by folder, creating one merged document per directory whi
 
 **Features:**
 - **Smart Folder Processing**: Merges PDFs within each folder (not including subfolders)
-- **Hash Key Removal**: Cleans folder names by removing cryptographic hashes (e.g., `Catio Academy 21c539b101a3801ca187c6e9ede5a0ee` → `Catio Academy`)
+- **Hash Key Removal**: Cleans folder names by removing cryptographic hashes (e.g., `Catio Academy 123456abcdef123456abcdef123456ab` → `Catio Academy`)
 - **Size Filtering**: Ignores files smaller than 20KB to exclude metadata/stub files
 - **Hierarchical Naming**: Creates logical, sequential filenames with parent-child relationships
 - **Emoji Preservation**: Maintains special characters and emojis in folder names
@@ -137,14 +137,14 @@ const OUTPUT_DIR = 'output';     // Output directory name
 
 ### Before (Exported Structure)
 ```
-Documentation & Knowledge Base 20f539b101a380248df8e22b5fdbcd4e/
-├── Getting Started 230539b101a3808eb8f3d4162872cf5c/
-│   ├── What is Catio 231539b101a3805a9cc4ce6a2d7c4c63.pdf
-│   ├── Key Benefits 231539b101a3800fb3ebdbf4014e9c95.pdf
-│   └── Setup Guide 231539b101a380faaeb8f4a648a4dc7c.pdf
-└── Integrations 21c539b101a38056adf0fb391eb0ce86/
-    ├── AWS Setup 231539b101a381e6b6a4f592c455b6b6.pdf
-    └── Kubernetes Setup 231539b101a3810ebf32e1b9e1d52aff.pdf
+Documentation & Knowledge Base 123456abcdef123456abcdef123456ab/
+├── Getting Started 789abc123def456789abc123def45678/
+│   ├── What is Product def456789abc123def456789abc12345.pdf
+│   ├── Key Benefits abc123def456789abc123def456789ab.pdf
+│   └── Setup Guide 456789abcdef123456789abcdef12345.pdf
+└── Integrations 987654fedcba987654fedcba987654fe/
+    ├── AWS Setup 135792468ace135792468ace135792ac.pdf
+    └── Kubernetes Setup 246810bdf357246810bdf357246810bd.pdf
 ```
 
 ### After (Consolidated Structure)  
