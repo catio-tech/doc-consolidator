@@ -45,3 +45,6 @@ Documentation*/
 
 # Any folder with hash patterns (likely exports)
 *[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/
+
+# Project-specific files
+CLAUDE.md
