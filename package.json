@@ -1,0 +1,36 @@
+{
+  "name": "doc-consolidator",
+  "version": "1.0.0",
+  "description": "PDF documentation consolidation utilities for processing exported documentation files",
+  "main": "analyze-files.js",
+  "scripts": {
+    "analyze": "node analyze-files.js",
+    "merge": "node merge-pdfs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "documentation",
+    "merger",
+    "consolidation",
+    "notion",
+    "export"
+  ],
+  "author": "Catio Tech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catio-tech/doc-consolidator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catio-tech/doc-consolidator/issues"
+  },
+  "homepage": "https://github.com/catio-tech/doc-consolidator#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
